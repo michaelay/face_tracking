@@ -1,0 +1,1 @@
+gcc -I/usr/local/Cellar/opencv/2.4.2/include/opencv/ -L/usr/local/Cellar/opencv/2.4.2/lib/ -lopencv_core -lopencv_objdetect -lopencv_highgui -lopencv_imgproc -o facedetect facedetect.c
